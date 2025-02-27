@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -37,14 +37,13 @@ namespace DSaA_2
                             for (int j = 0; j < space; j++)
                                 Console.Write(" ");
                         }
-
                         Console.Write(userInput[i]);
-                        inRow = rowVal;
                     }
                     else
                     {
                         space++;
                     }
+                    inRow = rowVal;
                 }
                 Console.WriteLine();
                 
@@ -53,7 +52,3 @@ namespace DSaA_2
         }
     }
 }
-
-
-
-//Console.WriteLine(userInput[i]);
